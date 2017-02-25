@@ -61,6 +61,24 @@ function checkTime(i) {
 	}
 	$conn->close();
 	?>
+		<ul>
+	  <li>
+		<a href="index.php">Pealeht</a>
+	  </li>
+	  <li>
+		<a href="galerii.html">Galerii</a>
+	  </li>
+	  <li>
+		<a href="login.html">Logimine</a>
+	  </li>
+	  <li>
+		<a href="registreerimine.html">Registreerimine</a>
+	  </li>
+	  <li>
+		<a href="upload.html">Üleslaadimine</a>
+	  </li>
+	</ul>
+
 	
 	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse feugiat libero id mauris tempor, faucibus finibus risus gravida. Morbi id ex urna. Morbi vitae metus eget justo vulputate tempor et vitae libero. Cras leo mauris, semper sed mauris ac, rutrum viverra lectus. Ut eu lorem vel felis hendrerit fermentum et sit amet enim. Vestibulum tempus turpis est, nec pretium tellus porttitor ut. Praesent vel justo ut erat dignissim varius. Maecenas imperdiet velit vitae massa hendrerit rutrum. Cras maximus scelerisque efficitur. Quisque laoreet posuere orci. Etiam facilisis tempus lacinia.</p>
 	<p>Duis tristique libero sit amet massa iaculis, non dignissim dui semper. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean ultricies consequat felis blandit tempus. Quisque risus metus, venenatis vel tellus vel, egestas facilisis augue. Phasellus ipsum elit, facilisis quis neque et, ultrices luctus tortor. Duis et libero convallis, ornare lacus sed, pellentesque justo. Quisque urna augue, mattis ac faucibus et, commodo vel nisi. Ut dapibus risus et nisl luctus, ac iaculis ex molestie. In dui odio, auctor sed imperdiet et, porta vel nulla. In sodales est dui, non euismod elit pharetra id.</p>
