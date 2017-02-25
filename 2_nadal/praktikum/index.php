@@ -61,7 +61,7 @@ function checkTime(i) {
 	}
 	$conn->close();
 	?>
-		<ul>
+	<ul>
 	  <li>
 		<a href="index.php">Pealeht</a>
 	  </li>
