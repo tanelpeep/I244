@@ -1,0 +1,29 @@
+body {
+	background-image: url("pics/wood.jpg");
+	background-repeat: repeat;
+}
+
+img {
+	margin: auto;
+	display: block;
+}
+
+h2 {
+	color: white;
+	margin-left: 20%;
+	#text-align: center;
+}
+
+#pealkiri {
+	color: white;
+	margin-left: 10%;
+	#text-align: right;
+}
+
+p {
+	color: white;
+}
+
+table {
+	color: white;
+}
