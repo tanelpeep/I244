@@ -1,0 +1,64 @@
+body {
+	background-image: url("pics/wood.jpg");
+	background-repeat: repeat;
+}
+
+img.mina {
+	margin: auto;
+	display: block;
+	border: 10px solid;
+}
+
+div.body {
+	background: rgba(0, 0, 0, 0.5);
+}
+
+#menu {
+	color: white;
+	text-decoration: none;
+    list-style-type: none;
+    overflow: hidden;
+	background-color: #333;
+
+}
+#menu li {
+	float: left;
+
+}
+#menu a {
+	color:white;
+	text-decoration: none;
+	display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+
+}
+#menu a:hover {
+	font-weight: bold;
+	background-color: black;
+
+}
+
+div.content {
+	background: rgba(255, 255, 255, 0.2);
+	text-align: justify;
+}
+
+h2 {
+	color: white;
+	margin-left: 20%;
+}
+
+#pealkiri {
+	color: white;
+	margin-left: 10%;
+}
+
+p {
+	color: white;
+}
+
+table {
+	color: white;
+}

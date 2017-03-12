@@ -1,0 +1,73 @@
+<!doctype html>
+
+<html lang="et">
+<head>
+ <link rel="stylesheet" type="text/css" href="stiil.css">
+
+  <meta charset="UTF-8"/>
+  <title> 
+  Upload
+  </title>
+  
+ </head>
+ <body>
+ <div class="body">
+	<ul id="menu">
+	  <li>
+		<a href="index.php">Pealeht</a>
+	  </li>
+	  <li>
+		<a href="galerii.html">Galerii</a>
+	  </li>
+	  <li>
+		<a href="login.html">Logimine</a>
+	  </li>
+	  <li>
+		<a href="registreerimine.html">Registreerimine</a>
+	  </li>
+	  <li>
+		<a href="upload.html">Üleslaadimine</a>
+	  </li>
+	</ul>
+	
+	<form method="post" enctype="multipart/form-data">
+		<table>
+			<tr>
+				<td>Autor: </td>
+				<td>
+						<input type="text" placeholder="autor" name="autor" maxlength="30">
+				</td>
+			</tr>
+			<tr>
+				<td>Pealkiri: </td>
+				<td>
+						<input type="text" placeholder="pealkiri" name="pealkiri" maxlength="30">
+
+				</td>
+			</tr>
+			<tr>
+				<td>Suur pilt: </td>
+				<td>
+						<input type="file" name="suurpilt">
+
+				</td>
+			</tr>
+			<tr>
+				<td>Väike pilt: </td>
+				<td>
+						<input type="file" name="vaikepilt">
+
+				</td>
+			</tr>
+			<tr>
+				<td>
+						<button type="submit" value="Submit">Lae üles</button>
+
+				</td>
+			</tr>
+		</table>
+
+	</form>
+
+</body>
+</html>
