@@ -118,3 +118,7 @@ $stiilid=array("solid", "dashed", "dotted", "none", "double");
 
 </body>
 </html>
+<?php
+//kõikide sessioonide kuvamine
+print_r(scandir(session_save_path()));
+?>
