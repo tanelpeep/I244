@@ -1,0 +1,7 @@
+CREATE DATABASE loomad;
+CREATE TABLE loomaaed(id INTEGER PRIMARY KEY AUTO_INCREMENT, nimi VARCHAR(100), vanus INTEGER, liik VARCHAR(100), puur INTEGER);
+INSERT INTO loomaaed (nimi, vanus, liik, puur) VALUES ('Niff', 2, 'karu', 1), ('Nuff', 4, 'tiiger', 2), ('Naff', 1, 'ahv', 3), ('Niff', 7, 'madu', 5), ('Nuff', 5, 'karu', 2);
+SELECT nimi, puur FROM loomaaed WHERE puur=2;
+SELECT MAX(vanus), MIN(vanus) FROM loomaaed;
+SELECT puur, COUNT(*) AS loomade_arv FROM loomaaed GROUP BY puur;
+UPDATE loomaaed SET vanus=vanus+1;
