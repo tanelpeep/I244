@@ -1,0 +1,17 @@
+<?php
+if (isset($_GET['id'])){
+$rida = hangi_loom($_GET['id']);}?>
+<form action="?page=muuda" method="POST" enctype="multipart/form-data">
+	<input type="text" name="nimi" value="<?php if (isset($rida['nimi'])) echo htmlspecialchars($rida['nimi']); ?>"/><br/>
+	<input type="number" name="puur" placeholder="puur" value="<?php if (isset($rida['puur'])) echo htmlspecialchars($rida['puur']); ?>"/><br/>
+    <img src="<?php if (isset($rida['liik'])) echo htmlspecialchars($rida['liik']); ?>"/><br/>
+    Näopilt: <input type="file" name="liik"/><br/>
+
+	<input type="hidden" name="id" value="<?php if (isset($rida['id'])) echo htmlspecialchars($rida['id']); ?>">
+    <input type="submit" value="Muuda"/>
+</form>
+<?php if (isset($errors)):?>
+		<?php foreach($errors as $error):?>
+			<div style="color:red;"><?php echo htmlspecialchars($error); ?></div>
+		<?php endforeach;?>
+	<?php endif;?>

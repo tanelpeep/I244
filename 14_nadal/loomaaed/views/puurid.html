@@ -1,0 +1,19 @@
+<?php
+
+foreach ($loomad as $name => $puur) {
+    echo "<div class='puur'>";
+    echo "<h4>{$name}</h4>";
+    foreach ($puur as $puuris) {
+    echo '<img src="'.$puuris["liik"].'"></img>';
+    echo "<h5>".$puuris["nimi"]."</h5>";
+        if($_SESSION['roll']=='admin'){
+            echo '<a href="?page=muuda&id='.$puuris['id'].'">Muuda</a>';
+        }
+    }
+    echo "</div>";
+}
+
+?>
+<pre>
+
+</pre>
